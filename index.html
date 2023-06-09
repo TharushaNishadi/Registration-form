@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <body background="register 2.jpg"></body>
+</head>
+<body>
+    <h1 style="background-color:#7190af; height: 40px;" align="center">BE A PART OF US</h1>
+    <br>
+    <form>
+        <fieldset>
+            <legend align="center"><b><font size="5">LOGIN FORM</font></b></legend>
+            <br>
+            <label for="name"><b>Name:</b></label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+            <br>
+            <br>
+            <label for="uname"><b>User Name:</b></label><br>
+            <input type="text" id="uname" name="uname" required>
+            <br><br>
+            <label for="uname"><b>Occupation:</b></label><br>
+            <input type="text" id="Occupation" name="Occupation" required>
+            <br><br>
+            <label for="uname"><b>Gender:</b></label><br>
+            <input type="radio" id="gen" name="gen">
+            <label for="fgen">Female</label> &nbsp;&nbsp;&nbsp;
+            <input type="radio" id="gen" name="gen">
+            <label for="mgen">Male</label> &nbsp;&nbsp;&nbsp;
+            <input type="radio" id="gen" name="gen">
+            <label for="ogen">Other</label><br><br>
+            <label for="con"><b>Country:</b></label><br>
+            <select name="con">
+                <option value="1">Sri Lanka</option>
+                <option value="1">India</option>
+                <option value="1">Austrslia</option>
+                <option value="2">Afghanistan</option>
+                <option value="3">Bangladesh</option>
+                <option value="4">China</option>
+                <option value="5">Denmark</option>
+                <option value="6">United States</option>
+                <option value="7">United Kingdom</option>
+                
+            </select>
+            <br><br>
+            <label for="pno"><b>Phone:</b></label><br>
+            <input type="tel" id="pno" name="pno"><br><BR>
+            <label for="email"><b>E-mail:</b></label><br>
+            <input type="email" id="email" name="email"><br><BR>
+            <label for="pw"><b>Password:<b></label><br>
+            <input type="password" id="pw" name="pw" required>
+            <br><br>
+            <label for="rev"><b>Who You Are:</b></label><br>
+            <textarea  id="rev" name="rev" rows="5" cols="50">
+            </textarea>
+            <br><br>
+            <button style=background-color:#7190af;border-radius:5px;  type="button" onclick="alert('Successfully Completed!')"><b>Submit</b></button>&nbsp;&nbsp;&nbsp;
+            <button style=border-radius:5px;  type="button" ><b>Reset</b></button>&nbsp;&nbsp;&nbsp;
+        </fieldset>
+    </form>
+</body>
+</html>
